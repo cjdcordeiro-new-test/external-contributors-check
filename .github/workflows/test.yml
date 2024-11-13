@@ -1,0 +1,11 @@
+name: test
+
+on: pull_request_target
+
+jobs:
+  foo:
+    runs-on: latest
+    steps:
+      - run: echo hi
+        
+    
