@@ -4,7 +4,7 @@ on: pull_request
 
 jobs:
   foo:
-    runs-on: latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo hi
         
